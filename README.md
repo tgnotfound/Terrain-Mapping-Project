@@ -5,6 +5,7 @@ A LiDAR sensor mounted on a wheeled robotic platform collects continuous range d
 The project demonstrates the core principles of LiDAR sensing, data fusion, mapping algorithms, and real-time environmental reconstruction.
 
 🎯 Objectives
+
 Integrate a LiDAR sensor with a microcontroller/processor (ESP32/Raspberry Pi).
 Acquire continuous 2-D scan data and convert it into meaningful terrain representations.
 Implement filtering, coordinate conversion, and noise reduction.
@@ -13,6 +14,7 @@ Compare LiDAR results with ultrasonic sensor mapping.
 Build a functional low-cost terrain mapping prototype.
 
 🛠️ Hardware Components
+
 RPLiDAR A-Series (A1M8) – 360° scanning, ~6 m range
 Microcontroller / Processor
 ESP32 (data transmission)
@@ -26,6 +28,7 @@ Motors & Motor Driver
 Wheeled Chassis
 
 💻 Software Components
+
 Python (data acquisition, processing, visualization)
 Open3D / Matplotlib for point-cloud rendering
 Serial/UART Interface for LiDAR communication
@@ -33,6 +36,7 @@ Noise filtering algorithms
 Polar → Cartesian coordinate transformation
 
 🧭 System Workflow
+
 LiDAR Initialization
 Continuous Scan Data Acquisition
 Data Cleaning (noise removal, thresholding)
@@ -43,6 +47,7 @@ Accuracy Evaluation
 Comparison with Ultrasonic Mapping
 
 📊 Results Summary
+
 Generated 2-D terrain maps clearly represented slopes, obstacles, and uneven surfaces.
 Produced dense and consistent point clouds.
 LiDAR outperformed ultrasonic sensors in:
